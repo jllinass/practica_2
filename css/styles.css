@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url(../img/bg_image.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #00000033;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: Spartan, sans-serif;
+    font-weight: bold;
+    color: #F8F9FA;
+    width: 69px;
+    height: 22px;
+    padding-left: 70px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px; 
+    width: 33px;
+    height: 14px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 12px;
+}
+
+.menu-item:hover{
+    color: #FFFF;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #E5E5E5;
+    font-size: 18px;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons a:hover {
+    color: #FFFF;
+}
