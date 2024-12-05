@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@400;700&display=swap');
 
 body {
     margin: 0;
@@ -10,7 +10,7 @@ body {
 header {
     background-image: url(../img/bg_image.jpeg);
     background-size: cover;
-    height: 100vh;
+    height: 50vh;
 }
 
 .header {
@@ -61,4 +61,55 @@ header {
 
 .social-icons a:hover {
     color: #FFFF;
+}
+
+.blog-regular {
+    margin-left: 70px;
+}
+
+h2 {
+    color: #495057;
+    font-size: 36px;
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+}
+
+.main-item {
+    text-decoration: none;
+    color: #495057;
+    font-size: 12px;
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+}
+
+.main-item:hover {
+    color: #D4A373;
+}
+
+.blog img {
+    width: 310px;
+    height: 280px;
+}
+
+.blog {
+    width: 310px;
+    height: 450px;
+}
+
+.blog-title {
+    color: #495057;
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+}
+
+.blog-text {
+    color: #6C757D;
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+}
+
+.blog-date {
+    color: #6C757D;
+    font-family: Lora, sans-serif;
+    font-weight: 400;
 }
