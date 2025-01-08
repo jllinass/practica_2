@@ -160,3 +160,35 @@ h3 {
     color: #FFFFFF;
     padding-top: 3px;
 }
+
+.blog_metro {
+    margin-top: 180px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.blog_metro_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editors_pick_1 {
+    background-image: url(../img/editors_pick1.jpeg);
+    background-size: cover;
+    width: 420px;
+    height: 350px;
+}
+
+.editors_pick_2 {
+    background-image: url(../img/editors_pick2.jpeg);
+    background-size: cover;
+    width: 420px;
+    height: 350px;
+}
+
+.editors_pick_3 {
+    background-image: url(../img/editors_pick3.jpeg);
+    background-size: cover;
+    width: 420px;
+    height: 350px;
+}
